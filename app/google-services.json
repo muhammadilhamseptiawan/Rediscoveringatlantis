@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "976997784825",
+    "firebase_url": "https://rediscoveringatlantis-d3f8c.firebaseio.com",
+    "project_id": "rediscoveringatlantis-d3f8c",
+    "storage_bucket": "rediscoveringatlantis-d3f8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976997784825:android:67a086a523e1c659",
+        "android_client_info": {
+          "package_name": "xyz.rediscoveringatlantis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976997784825-j2tphgj68ai6rqqr2pn4tse1ktnetj6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.rediscoveringatlantis",
+            "certificate_hash": "696266c5ee65ac591d38397371500b4acfaace6c"
+          }
+        },
+        {
+          "client_id": "976997784825-6eqig9lvnfkrnaajlulot865te394gpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCljyqsbHi9DJvq7Y6ZEN7YoHVnICdliWc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976997784825-6eqig9lvnfkrnaajlulot865te394gpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
