@@ -37,6 +37,9 @@ public class Home extends AppCompatActivity
     DatabaseReference category;
 
 
+    RecyclerView recyler_menu;
+    RecyclerView.LayoutManager LayoutManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,8 +57,6 @@ public class Home extends AppCompatActivity
 
         TextView txtFullName;
 
-        RecyclerView recyler_menu;
-        RecyclerView.LayoutManager LayoutManager;
 
 
 
@@ -95,13 +96,14 @@ public class Home extends AppCompatActivity
 
 
     }
+
     private void loadMenu(){
 
         FirebaseRecyclerAdapter<Category,MenuViewHolder> adapter = new FirebaseRecyclerAdapter<Category, MenuViewHolder>(Category.class,R.layout.menu_item,MenuViewHolder.class,category) {
-            @Override
+           @Override
             protected void populateViewHolder(MenuViewHolder viewHolder, Category model, int position) {
                 viewHolder.txtMenuName.setText(model.getName());
-                Picasso.with(getApplicationContext()).load(model.getImage())
+                Picasso.with(getBaseContext()).load(model.getImage())
                             .into(viewHolder.imageView);
                 final Category clickItem = model;
                 viewHolder.setItemClickListener(new ItemClickListener() {
@@ -109,12 +111,10 @@ public class Home extends AppCompatActivity
                     public void onClick(View view, int position, boolean isLongClick) {
                         Toast.makeText(Home.this, ""+clickItem.getName(), Toast.LENGTH_SHORT).show();
                     }
-                });
+               });
             }
         };
-
-        //recyler_menu.setAdapter(adapter);
-
+        recyler_menu.setAdapter(adapter); //error disini
     }
 
     @Override

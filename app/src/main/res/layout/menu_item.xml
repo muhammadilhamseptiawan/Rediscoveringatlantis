@@ -18,7 +18,7 @@
             android:layout_height="match_parent" />
 
         <TextView
-            android:id="@+id/menu_image"
+            android:id="@+id/menu_name"
             android:text="Name of Menu"
             android:textColor="@android:color/white"
             android:background="#4f0e0d0e"
