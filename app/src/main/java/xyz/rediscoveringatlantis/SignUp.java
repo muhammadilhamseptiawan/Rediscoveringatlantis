@@ -15,7 +15,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
 import xyz.rediscoveringatlantis.Model.User;
-
+                    //Irbat Khoiri 15.11.8512
 public class SignUp extends AppCompatActivity {
 
     MaterialEditText edtPhone,edtName,edtPassword;

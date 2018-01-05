@@ -29,7 +29,7 @@ import xyz.rediscoveringatlantis.Common.Common;
 import xyz.rediscoveringatlantis.Interface.ItemClickListener;
 import xyz.rediscoveringatlantis.Model.Category;
 import xyz.rediscoveringatlantis.ViewHolder.MenuViewHolder;
-
+                            //Muhammad Ilham Septiawan 15.11.8513
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
